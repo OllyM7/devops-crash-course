@@ -10,8 +10,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'pip install pytest'
-                sh 'if [ -f requirements.txt ]; then pip install -r requirements.txt; fi'
+                sh 'python3 -m pip install pytest'
+                sh 'if [ -f requirements.txt ]; then python3 -m pip install -r requirements.txt; fi'
             }
         }
 
