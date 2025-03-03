@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/devops-crash-course.git'
+                git 'https://github.com/OllyM7/devops-crash-course.git'
             }
         }
 
